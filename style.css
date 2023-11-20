@@ -217,7 +217,8 @@ img {
 .hero-pricing-section {
   width: 100%;
   height: 100%;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
+  margin-bottom: 5%;
 }
 
 .hero-pricing-content {
@@ -290,4 +291,81 @@ img {
 
 .hero-pricing-button {
   width: 100%;
+}
+
+.faq {
+  width: 100%;
+  height: 100%;
+  padding: 2.5rem 0;
+  margin-bottom: 2%;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2.5rem 0;
+}
+
+.faq .faq-group {
+  border-bottom: 1px solid #ccc;
+  width: 51.5rem;
+}
+
+.faq .faq-group .faq-group-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.faq .faq-group .faq-group-header h4 {
+  font-weight: 600;
+  width: 95%;
+}
+
+.faq .faq-group .faq-group-header i {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.faq .faq-group .faq-group-body {
+  display: none;
+}
+
+.faq .faq-group .faq-group-body.open {
+  display: block;
+  padding: 0.5rem 0;
+}
+
+.faq ul.faq-menu {
+  max-width: 25rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq ul.faq-menu li {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.faq ul.faq-menu li.active {
+  background: var(--primary-color);
+  background-color: #4891ff;
+  color: #fff;
+}
+
+.faq-menu {
+  display: flex;
 }
